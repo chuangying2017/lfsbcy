@@ -1,0 +1,164 @@
+[ 2018-04-26T13:15:07+08:00 ] 192.168.1.117 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 53 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 54 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 55 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 56 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 57 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 58 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 59 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2018-04-26T13:15:46+08:00 ] 192.168.1.117 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 53 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 54 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 55 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 56 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 57 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 58 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 59 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2018-04-26T13:15:48+08:00 ] 192.168.1.117 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 53 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 54 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 55 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 56 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 57 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 58 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 59 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+NOTIC: [8] Undefined index: art_type C:\project\lfsd\App\Runtime\Cache\Home\f0bc1d7242858e85c91310a5b1389f0b.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2018-04-26T13:33:44+08:00 ] 192.168.1.117 /index.php/Article/index_page/ids/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `web_print` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\838150718ff54f12800f87fe16cef859.php 第 16 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\838150718ff54f12800f87fe16cef859.php 第 17 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\838150718ff54f12800f87fe16cef859.php 第 18 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\838150718ff54f12800f87fe16cef859.php 第 19 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\838150718ff54f12800f87fe16cef859.php 第 20 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\838150718ff54f12800f87fe16cef859.php 第 21 行.
+NOTIC: [8] Undefined index: id C:\project\lfsd\App\Runtime\Cache\Home\838150718ff54f12800f87fe16cef859.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+

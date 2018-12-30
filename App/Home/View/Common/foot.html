@@ -1,0 +1,94 @@
+  <div class="foot">
+        <style>
+            .link-bg {
+                position: relative;
+            }
+            .one-img, .two-img, .three-img, .four-img{
+                position: absolute;
+                width: 120px;
+                height: 80px;
+            }
+        </style>
+        <div class="link w10 link-bg link-bg-footer" style=" padding: 25px 0;">
+            <div class="one-img"></div>
+            <div class="two-img"></div>
+            <div class="three-img"></div>
+            <div class="four-img"></div>
+            <div class="youqinglink">友情链接</div>
+                <div style="width: 88%;margin-left: 10%;height: 100%;text-align: center;padding-bottom: 30px">
+            <volist name="link" id="vo">
+                <a href="<{$vo.url}>"  target="_blank" ><{$vo.title}></a>
+            </volist>
+            </div>
+        </div>
+
+        <div class="footmap " style="">
+            <div class="footmsg w10 ">
+                <div class="footleft footNie">
+                    <div class="footurl">
+                        <a>关于我们</a>
+                        <span>|</span>
+                        <a>帮助中心</a>
+                        <span>|</span>
+                        <a>友情链接</a>
+                        <span>|</span>
+                        <a>法律声明</a>
+                        <span>|</span>
+                        <a>版权信息</a>
+                        <span>|</span>
+                        <a>网站地图</a>
+                    </div>
+                    <div><{$config.info1}> </div>
+                    <div> <{$config.copyright}>  <{$config.icp}> <{$config.cnzz}></div>
+                    <div class="footright footRightStyle">
+                            <div class="rightdiv">
+                                <img src="__IMG__/home/WeChat.png" class="rightimg" />
+                                <div>关注微信</div>
+                            </div>
+                            <div class="rightdiv">
+                                <img src="__IMG__/home/Sina.png" class="rightimg" />
+                                <div>关注微博</div>
+                            </div>
+                        </div>
+                </div>
+ 
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            padding-bottom: 120px;
+        }
+        .youqinglink {
+            position: relative;
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .foot .link {
+            height: auto;
+        }
+        .foot .link a {
+            width: 20%;
+            display: inline-block;
+            margin: 0;
+            text-align: left
+            
+        }
+        .foot .link a, .foot .link a:hover, .foot .link a:link, .youqinglink {
+            color: #5579a1;
+            font-weight: 700;
+        }
+        .footNie {
+            margin: 100px 0;
+            margin-left: 45%;
+            transform: translateX(-50%);
+            position: relative;
+        }
+        .footRightStyle {
+            position: absolute;
+            right: -200px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>

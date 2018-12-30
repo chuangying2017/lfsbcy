@@ -1,0 +1,877 @@
+[ 2018-12-15T08:43:40+08:00 ] 59.33.247.131 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:43:40+08:00 ] 59.33.247.131 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:43:41+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:43:49+08:00 ] 59.33.247.131 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`lognum`,`status`,`groupid` FROM `web_admin` WHERE `username` = 'admin' AND `password` = 'a0ffe79088edeeb0d0572fe325659923' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_loginlog` [ RunTime:0.0000s ]
+SQL: INSERT INTO `web_loginlog` (`ip`,`beginip`,`endip`,`country`,`area`,`uid`,`create_date`,`status`) VALUES ('59.33.247.131','59.33.247.118','59.33.247.177','广东省惠州市','电信ADSL','6','2018-12-15 08:43:49','2') [ RunTime:0.0000s ]
+SQL: UPDATE `web_admin` SET `errorlognum`='1',`errorlogtime`='1544838229' WHERE `id` = 6 [ RunTime:0.0156s ]
+
+[ 2018-12-15T08:43:49+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html?d=0.77055148290886
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:43:49+08:00 ] 59.33.247.131 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:43:49+08:00 ] 59.33.247.131 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:43:49+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:43:59+08:00 ] 59.33.247.131 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`lognum`,`status`,`groupid` FROM `web_admin` WHERE `username` = 'admin' AND `password` = '68cb582802363ea105f89d6d7b0e20ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_loginlog` [ RunTime:0.0000s ]
+SQL: INSERT INTO `web_loginlog` (`ip`,`beginip`,`endip`,`country`,`area`,`uid`,`create_date`,`status`) VALUES ('59.33.247.131','59.33.247.118','59.33.247.177','广东省惠州市','电信ADSL','6','2018-12-15 08:43:59','2') [ RunTime:0.0156s ]
+SQL: UPDATE `web_admin` SET `errorlognum`='2',`errorlogtime`='1544838239' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2018-12-15T08:44:00+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html?d=0.11667871180283695
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:44:00+08:00 ] 59.33.247.131 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:44:00+08:00 ] 59.33.247.131 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:44:00+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:44:10+08:00 ] 59.33.247.131 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`lognum`,`status`,`groupid` FROM `web_admin` WHERE `username` = 'admin' AND `password` = '68cb582802363ea105f89d6d7b0e20ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_loginlog` [ RunTime:0.0156s ]
+SQL: INSERT INTO `web_loginlog` (`ip`,`beginip`,`endip`,`country`,`area`,`uid`,`create_date`,`status`) VALUES ('59.33.247.131','59.33.247.118','59.33.247.177','广东省惠州市','电信ADSL','6','2018-12-15 08:44:10','2') [ RunTime:0.0156s ]
+SQL: UPDATE `web_admin` SET `errorlognum`='3',`errorlogtime`='1544838250' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2018-12-15T08:44:10+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html?d=0.8200088630114475
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:44:10+08:00 ] 59.33.247.131 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:44:10+08:00 ] 59.33.247.131 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:44:10+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:49:02+08:00 ] 59.33.247.131 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-12-15T08:49:02+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html?d=0.13056936019640686
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:49:02+08:00 ] 59.33.247.131 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:49:02+08:00 ] 59.33.247.131 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:49:02+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:49:12+08:00 ] 59.33.247.131 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `id`,`lognum`,`status`,`groupid` FROM `web_admin` WHERE `username` = 'admin' AND `password` = 'a0ffe79088edeeb0d0572fe325659923' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_loginlog` [ RunTime:0.0000s ]
+SQL: INSERT INTO `web_loginlog` (`ip`,`beginip`,`endip`,`country`,`area`,`uid`,`create_date`,`status`) VALUES ('59.33.247.131','59.33.247.118','59.33.247.177','广东省惠州市','电信ADSL','6','2018-12-15 08:49:12','2') [ RunTime:0.0156s ]
+SQL: UPDATE `web_admin` SET `errorlognum`='4',`errorlogtime`='1544838552' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2018-12-15T08:49:12+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html?d=0.01020567854970511
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:49:12+08:00 ] 59.33.247.131 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:49:12+08:00 ] 59.33.247.131 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:49:12+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:50:50+08:00 ] 59.33.247.131 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`lognum`,`status`,`groupid` FROM `web_admin` WHERE `username` = 'admin' AND `password` = 'a0ffe79088edeeb0d0572fe325659923' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_loginlog` [ RunTime:0.0156s ]
+SQL: INSERT INTO `web_loginlog` (`ip`,`beginip`,`endip`,`country`,`area`,`uid`,`create_date`,`status`) VALUES ('59.33.247.131','59.33.247.118','59.33.247.177','广东省惠州市','电信ADSL','6','2018-12-15 08:50:50','2') [ RunTime:0.0000s ]
+SQL: UPDATE `web_admin` SET `errorlognum`='5',`errorlogtime`='1544838650' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2018-12-15T08:50:50+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html?d=0.18511935772343135
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:50:50+08:00 ] 59.33.247.131 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:50:50+08:00 ] 59.33.247.131 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T08:50:50+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T09:02:03+08:00 ] 59.33.247.131 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`lognum`,`status`,`groupid` FROM `web_admin` WHERE `username` = 'admin' AND `password` = 'a0ffe79088edeeb0d0572fe325659923' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-12-15T09:02:03+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html?d=0.16336960755981456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T09:02:03+08:00 ] 59.33.247.131 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T09:02:03+08:00 ] 59.33.247.131 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T09:02:03+08:00 ] 59.33.247.131 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-15T10:07:55+08:00 ] 116.23.26.123 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T10:07:55+08:00 ] 116.23.26.123 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: UPDATE `web_admin` SET `errorlognum`='0',`errorlogtime`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T10:07:55+08:00 ] 116.23.26.123 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T10:08:05+08:00 ] 116.23.26.123 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_admin` WHERE `username` = 'superadmin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`lognum`,`status`,`groupid` FROM `web_admin` WHERE `username` = 'superadmin' AND `password` = '68cb582802363ea105f89d6d7b0e20ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_loginlog` [ RunTime:0.0000s ]
+SQL: INSERT INTO `web_loginlog` (`ip`,`beginip`,`endip`,`country`,`area`,`uid`,`create_date`,`status`) VALUES ('116.23.26.123','116.23.7.0','116.23.26.255','广东省广州市','电信','1','2018-12-15 10:08:05','2') [ RunTime:0.0156s ]
+SQL: UPDATE `web_admin` SET `errorlognum`='1',`errorlogtime`='1544843285' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2018-12-15T10:08:05+08:00 ] 116.23.26.123 /index.php/Admin/index/code.html?d=0.3810225851511382
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T10:08:05+08:00 ] 116.23.26.123 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-15T10:08:05+08:00 ] 116.23.26.123 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T10:08:05+08:00 ] 116.23.26.123 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T10:08:15+08:00 ] 116.23.26.123 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_admin` WHERE `username` = 'superadmin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-12-15T10:08:15+08:00 ] 116.23.26.123 /index.php/Admin/index/code.html?d=0.6471218584218468
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-15T10:08:15+08:00 ] 116.23.26.123 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T10:08:15+08:00 ] 116.23.26.123 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: basedata E:\project\lfs-master\App\Admin\Controller\IndexController.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-15T10:08:15+08:00 ] 116.23.26.123 /index.php/Admin/index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`errorlognum`,`errorlogtime` FROM `web_admin` WHERE `errorlognum` <> '0'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

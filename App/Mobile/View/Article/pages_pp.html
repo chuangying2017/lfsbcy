@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>品牌文化</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><{$config.title}></title>
+    <meta name="keywords" content="<{$config.keywords}>"/>
+    <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/mobile/lfss.css" rel="stylesheet" />
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+
+<div class="frame">
+    <div class="head">
+        <button class="back" onclick="history.go(-1)"></button>
+        <div class="name" style="text-align: center;font-size: 15px;">百草传说</div>
+        <include file="Common:share"/>
+    </div>
+    <div class="clearH45"></div>
+
+    <div style="text-align: center;padding-top: 20px">
+        <img src="__IMG__/home/1.png" alt="" style="width: 40%">
+    </div>
+    <div class="jies">
+        <ul>
+            <li><a href="<{:U('Index/index')}>"><img src="__IMG__/home/首页.png" alt=""></a></li>
+            <li><a href="<{:U('Article/product',array('id'=>'100'))}>"><img src="__IMG__/home/3.png" alt=""></a></li>
+            <li><a href="<{:U('Article/activitylist',array('id'=>'6'))}>"><img src="__IMG__/home/4.png" alt=""></a></li>
+            <li><a href="<{:U('Index/drugstore',array('id'=>'101'))}>"><img src="__IMG__/home/5.png" alt=""></a></li>
+            <li><a href="<{:U('Article/activitylist',array('id'=>'7'))}>"><img src="__IMG__/home/6.png" alt=""></a></li>
+            <li><a href="" onclick="show();return false;" ><img src="__IMG__/home/源自名山_03.png" alt=""></a></li>
+            <li><a href="<{:U('Article/pagess',array('id'=>'103'))}>"><img src="__IMG__/home/1.8.png" alt=""></a></li>
+        </ul>
+    </div>
+    <div id="div3">
+         <ul style="width: 90%;margin-left: -6%;background:#da251d;">
+            <foreach item="v" name="data" key="k">
+                <li><a href="<{:U('Article/pages',array('id'=>$v['art_type'],ids=>$v['id']))}>"><{$v.name}></a></li>
+                <div style="display: inline-block;width: 1px;background: #e35c56;height: 60px"></div>
+            </foreach>
+      <li><a href="<{:U('Article/pages_pp',array('id'=>'13'))}>" <if condition='$Think.get.id eq 13 ' > class="producthot" </if> >百草传说</a></li>
+
+        </ul>
+    </div>
+    <div class="productright">
+        <div class="productrighttwo">
+            <div class="act_body">
+                <a>
+                    <foreach item="v" name="data1" key="k">
+                        <a href="<{:U('Article/pages',array('id'=>$v['art_type'],'ids'=>$v['id']))}>" style="width: 87%;
+    display: inline-block;"><span style="display: inline-block;padding-right: 2%;">.</span><{$v.art_title}></a>
+                        <span class="act_span">+</span>
+                        <div style="height: 1px;width: 90%;background:  #eae5d5;margin-left: 5%"></div>
+                    </foreach>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="__JS__/home/jquery-1.8.3.min.js"></script>
+<script>
+
+    $(function(){
+        $(".pages_img p img ").attr("style","");
+    });
+    $(function(){
+        $(".pages_div p img ").attr("style","");
+    });
+    function show() {
+        if (document.getElementById('div3').style.display == 'block') {
+            document.getElementById('div3').style.display = 'none';
+            $("#div3").removeClass("isShow");
+        }
+        else
+        {
+            document.getElementById('div3').style.display = 'block'
+            $("#div3").attr("class","isShow");
+
+        }
+
+    }
+    $(function(){
+        $(".pages_img p img ").attr("style","");
+    });
+</script>
+</body>
+</html>

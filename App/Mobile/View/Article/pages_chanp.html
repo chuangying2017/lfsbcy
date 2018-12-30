@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>品牌文化</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><{$config.title}></title>
+    <meta name="keywords" content="<{$config.keywords}>"/>
+    <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/mobile/lfss.css" rel="stylesheet" />
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+<div class="frame">
+    <div class="head">
+        <button class="back" onclick="history.go(-1)"></button>
+        <div class="name" style="text-align: center;font-size: 15px;">源自名山</div>
+        <include file="Common:share"/>
+    </div>
+
+    <div class="clearH45"></div>
+
+    <div style="text-align: center;padding-top: 20px">
+        <img src="__IMG__/home/1.png" alt="" style="width: 40%">
+    </div>
+    <div class="jies">
+        <ul>
+            <li><a href="<{:U('Index/index')}>"><img src="__IMG__/home/首页.png" alt=""></a></li>
+            <li><a href="#" onclick="show();return false;" ><img src="__IMG__/home/产品介绍-功能主治_03.png" alt=""></a></li>
+            <li><a href="<{:U('Article/activitylist',array('id'=>'6'))}>"><img src="__IMG__/home/4.png" alt=""></a></li>
+            <li><a href="<{:U('Index/drugstore',array('id'=>'101'))}>"><img src="__IMG__/home/5.png" alt=""></a></li>
+            <li><a href="<{:U('Article/activitylist',array('id'=>'7'))}>"><img src="__IMG__/home/6.png" alt=""></a></li>
+            <li><a href="<{:U('Article/brand',array('id'=>'102'))}>" ><img src="__IMG__/home/7.png" alt=""></a></li>
+            <li><a href="<{:U('Article/pagess',array('id'=>'103'))}>"><img src="__IMG__/home/1.8.png" alt=""></a></li>
+        </ul>
+    </div>
+    <div id="div1">
+        <ul style="background-image: url('/Public/images/home/功能主治_03.png');width: 80%">
+            <li><a href="<{:U('Article/product',array('id'=>'1'))}>" <if condition='$Think.get.id eq 1 ' > class="producthot" </if>>功能主治</a></li>
+            <li><a href="<{:U('Article/product',array('id'=>'2'))}>" <if condition='$Think.get.id eq 2 ' > class="producthot" </if>>产品组方</a></li>
+            <li><a href="<{:U('Article/product',array('id'=>'3'))}>" <if condition='$Think.get.id eq 3 ' > class="producthot" </if>>虫蚊咬伤</a></li>
+            <li><a href="<{:U('Article/product',array('id'=>'4'))}>" <if condition='$Think.get.id eq 4 ' > class="producthot" </if>>功效推荐</a></li>
+            <li><a href="<{:U('Article/product',array('id'=>'5'))}>" <if condition='$Think.get.id eq 5 ' > class="producthot" </if>>产品荣誉</a></li>
+        </ul>
+    </div>
+    <div>
+        <div>
+            <div style="margin: 3% 0% 0% 3%;color: #8d5028;font-size: 12px">
+                <div class="productright">
+                    <div class="productrighttwo">
+
+                        <!--<div style="line-height: 30px;">-->
+                        <{$relust.art_content}>
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="__JS__/home/jquery-1.8.3.min.js"></script>
+<script>
+    $(function () {
+        $(".productrighttwo p img").attr("style",'');
+        $(".productrighttwo p img").addClass("pages_chanp_img");
+    });
+    function show() {
+        if (document.getElementById('div1').style.display == 'block') {
+            document.getElementById('div1').style.display = 'none';
+            $("#div1").removeClass("isShow");
+        }
+        else
+        {
+            document.getElementById('div1').style.display = 'block'
+            $("#div1").attr("class","isShow");
+
+        }
+
+    }
+</script>
+</body>
+</html>

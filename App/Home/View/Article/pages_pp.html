@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>罗浮山百草油</title>
+    <meta name="keywords" content="<{$config.keywords}>"/>
+    <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/home/BCYCSSs.css" rel="stylesheet" />
+</head>
+<body>
+<include file="Common:menu" />
+
+<div class="bodydiv w10">
+    <ul class="productleft">
+        <li class="first"></li>
+        <foreach item="v" name="data" key="k">
+            <li><a href="<{:U('Article/pages_pp',array('id'=>$v['art_type'],ids=>$v['id']))}>" ><{$v.name}></a></li>
+        </foreach>
+		 <li><a href="<{:U('Article/brand',array('id'=>'13'))}>" <if condition='$Think.get.id eq 13 ' > class="producthot" </if> >百草传说</a></li>
+        <li class="last"></li>
+    </ul>
+    <div class="productright">
+        <div class="productrighttwo">
+
+            <!--<div style="line-height: 30px;">-->
+            <{$relust.art_content}>
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+<include file='Common:foot' />
+</body>
+</html>

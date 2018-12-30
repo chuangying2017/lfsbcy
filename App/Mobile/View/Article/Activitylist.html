@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title><{$arr.name}></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><{$config.title}></title>
+    <meta name="keywords" content="<{$config.keywords}>"/>
+    <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/mobile/lfss.css" rel="stylesheet" />
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+<div class="frame">
+
+    <div class="header-Img">
+        <img src="__IMG__/home/1.png" alt="" style="width: 40%">
+    </div>
+    <div class="jies">
+        <if condition='$Think.get.id eq "7" ' >
+        <ul>
+            <li><a href="<{:U('Index/index')}>"><img src="__IMG__/home/首页.png" alt=""></a></li>
+            <li><a href="<{:U('Article/product',array('id'=>'100'))}>"><img src="__IMG__/home/3.png" alt=""></a></li>
+            <li><a href="<{:U('Article/activitylist',array('id'=>'6'))}>"><img src="__IMG__/home/4.png" alt=""></a></li>
+            <li><a href="<{:U('Index/drugstore',array('id'=>'101'))}>"><img src="__IMG__/home/5.png" alt=""></a></li>
+            <li><a href="<{:U('Article/activitylist',array('id'=>'7'))}>"><img src="__IMG__/home/活动分享_05.png" alt=""></a></li>
+            <li><a href="<{:U('Article/brand',array('id'=>'102'))}>"><img src="__IMG__/home/7.png" alt=""></a></li>
+            <li><a href="<{:U('Article/pagess',array('id'=>'103'))}>"><img src="__IMG__/home/1.8.png" alt=""></a></li>
+        </ul>
+          <else/>
+            <ul>
+                <li><a href="<{:U('Index/index')}>"><img src="__IMG__/home/首页.png" alt=""></a></li>
+                <li><a href="<{:U('Article/product',array('id'=>'100'))}>"><img src="__IMG__/home/3.png" alt=""></a></li>
+                <li><a href="<{:U('Article/activitylist',array('id'=>'6'))}>"><img src="__IMG__/home/使用方法_03.png" alt=""></a></li>
+                <li><a href="<{:U('Index/drugstore',array('id'=>'101'))}>"><img src="__IMG__/home/5.png" alt=""></a></li>
+                <li><a href="<{:U('Article/activitylist',array('id'=>'7'))}>"><img src="__IMG__/home/6.png" alt=""></a></li>
+                <li><a href="<{:U('Article/brand',array('id'=>'102'))}>"><img src="__IMG__/home/7.png" alt=""></a></li>
+                <li><a href="<{:U('Article/pagess',array('id'=>'103'))}>"><img src="__IMG__/home/1.8.png" alt=""></a></li>
+            </ul>
+        </if>
+    </div>
+    <div class="shang"></div>
+    <div class="GO_body" style="margin-top:-50px;">
+        <div class="GO_body1">
+            <div class="act_body">
+                <a>
+                    <foreach item="v" name="map" key="k">
+                        <a href="<{:U('Article/Activity',array('id'=>$v['art_type'],'ids'=>$v['id']))}>" style="width: 87%;
+    display: inline-block;"><span style="display: inline-block;padding-right: 2%;">.</span><{$v.art_title}></a>
+                        <span class="act_span">+</span>
+                        <div style="height: 1px;width: 90%;background:  #eae5d5;margin-left: 5%"></div>
+                    </foreach>
+                </a>
+   </div>
+</div>
+    </div>
+    <div class="xia"></div>
+</div>
+
+</body>
+</html>

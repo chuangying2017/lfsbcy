@@ -1,0 +1,2627 @@
+[ 2018-11-30T01:38:53+08:00 ] 203.208.60.50 /Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type`,`art_info`,`art_img` FROM `web_article` WHERE ( art_type=7 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T03:09:59+08:00 ] 203.208.60.42 /index.php/mobile/article/activity/id/6/ids/95.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=95 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=95 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 95 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T03:19:46+08:00 ] 203.208.60.50 /index.php/Mobile/Article/jieshao/id/3/ids/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=86 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=36 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-11-30T03:19:47+08:00 ] 203.208.60.85 /index.php/Mobile/Article/jieshao/id/3/ids/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0938s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0313s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=86 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=36 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T03:50:00+08:00 ] 47.92.151.67 /index.php/Mobile/Article/products/id/4/ids/42.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=4 ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T04:23:35+08:00 ] 101.132.131.7 /index.php/Mobile/Article/products/id/5/ids/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=5 ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T05:27:02+08:00 ] 116.62.215.53 /index.php/Mobile/Article/products/id/3/ids/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=3 ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T05:52:40+08:00 ] 47.92.31.65 /Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type`,`art_info`,`art_img` FROM `web_article` WHERE ( art_type=7 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T06:35:55+08:00 ] 139.224.15.159 /index.php/mobile/article/activity/id/6/ids/95.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=95 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=95 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 95 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T07:05:30+08:00 ] 47.92.140.160 /index.php/Mobile/Article/products/id/1/ids/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=1 ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T07:10:46+08:00 ] 47.92.50.96 /index.php/Mobile/Article/pages/id/7/ids/78.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=78 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=78 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 78 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T07:18:33+08:00 ] 47.100.51.108 /index.php/Mobile/Article/products/id/2/ids/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=2 ) ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T07:24:48+08:00 ] 139.224.11.233 /index.php/Mobile/Article/jieshao/id/5/ids/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=86 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=33 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T07:25:43+08:00 ] 47.100.38.232 /index.php/mobile/article/activity/id/7/ids/118.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=118 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=118 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 118 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T07:33:55+08:00 ] 39.107.86.51 /index.php/Mobile/Article/jieshao/id/3/ids/37.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=86 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=37 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T07:47:00+08:00 ] 47.98.60.52 /index.php/mobile/article/jieshao/id/4/ids/203.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=86 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=203 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 203 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T07:49:54+08:00 ] 47.92.101.189 /index.php/mobile/article/activity/id/7/ids/126.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=126 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=126 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 126 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T07:51:56+08:00 ] 47.98.62.203 /Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type`,`art_info`,`art_img` FROM `web_article` WHERE ( art_type=7 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T08:08:26+08:00 ] 47.100.38.232 /index.php/mobile/article/activity/id/7/ids/127.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=127 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=127 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 127 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T08:11:01+08:00 ] 101.132.188.111 /index.php/mobile/article/activity/id/7/ids/119.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=119 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=119 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 119 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T08:22:05+08:00 ] 203.208.60.89 /Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type`,`art_info`,`art_img` FROM `web_article` WHERE ( art_type=7 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T09:12:06+08:00 ] 203.208.60.32 /index.php/Mobile/Article/jieshao/id/3/ids/37.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=86 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=37 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T09:21:04+08:00 ] 101.132.106.40 /index.php/Mobile/Article/jieshao/id/1/ids/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=86 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=35 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T09:22:21+08:00 ] 203.208.60.104 /index.php/Mobile/Article/products/id/3/ids/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=3 ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T10:43:18+08:00 ] 47.97.167.161 /index.php/mobile/article/pages/id/7/ids/111.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=111 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=111 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T11:04:18+08:00 ] 203.208.60.109 /Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type`,`art_info`,`art_img` FROM `web_article` WHERE ( art_type=7 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T13:03:30+08:00 ] 203.208.60.102 /index.php/mobile/article/activity/id/6/ids/95.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=95 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=95 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 95 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\a598dc77264ab16aad6d4a7cc59bc4ec.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.135.244 /index.php/Mobile/Article/brand/id/102.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY p.id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 102 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=102 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( pid=92 ) ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.135.181 /index.php/Mobile/Article/pages/id/7/ids/66.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=66 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=66 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.135.132 /index.php/Mobile/Article/index_page/ids/48.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` WHERE `id` = 48 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map1 E:\project\lfs-master\App\Runtime\Cache\Mobile\8a2d54b6d759bce3c6a914bfc534ec71.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.135.69 /index.php/Mobile/Article/index_page/ids/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_print` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map1 E:\project\lfs-master\App\Runtime\Cache\Mobile\8a2d54b6d759bce3c6a914bfc534ec71.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.136.69 /index.php/Mobile/Article/pages/id/7/ids/66.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=66 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=66 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.136.69 /index.php/Mobile/Article/pages/id/7/ids/78.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=78 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=78 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 78 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.136.132 /index.php/Mobile/Article/index_page/ids/48.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_print` WHERE `id` = 48 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map1 E:\project\lfs-master\App\Runtime\Cache\Mobile\8a2d54b6d759bce3c6a914bfc534ec71.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.136.132 /index.php/Mobile/Article/index_page/ids/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map1 E:\project\lfs-master\App\Runtime\Cache\Mobile\8a2d54b6d759bce3c6a914bfc534ec71.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.135.69 /index.php/Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc LIMIT 4   [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type`,`art_info`,`art_img` FROM `web_article` WHERE ( art_type=7 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.136.6 /index.php/Mobile/Article/pages/id/7/ids/80.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=80 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=80 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.135.6 /index.php/Mobile/Article/activitylist/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=6 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE (  `art_title` = '虫蚊咬伤' AND `id` = '1' AND `art_type` = '6' ) AND (  `art_title` = '感冒头痛' AND `id` = '2' AND `art_type` = '6' ) AND (  `art_title` = '鼻塞鼻炎' AND `id` = '43' AND `art_type` = '6' ) AND (  `art_title` = '偏头痛、紧张性头痛' AND `id` = '44' AND `art_type` = '6' ) AND (  `art_title` = '提神醒脑' AND `id` = '45' AND `art_type` = '6' ) AND (  `art_title` = '皮肤瘙痒、疖肿' AND `id` = '46' AND `art_type` = '6' ) AND (  `art_title` = '舟车眩晕' AND `id` = '47' AND `art_type` = '6' ) AND (  `art_title` = '腹痛腹泻，痛经' AND `id` = '48' AND `art_type` = '6' ) AND (  `art_title` = '风湿' AND `id` = '49' AND `art_type` = '6' ) AND (  `art_title` = '沐浴' AND `id` = '50' AND `art_type` = '6' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title` FROM `web_article` WHERE (  `art_title` = '虫蚊咬伤' AND `id` = '1' AND `art_type` = '6' ) AND (  `art_title` = '感冒头痛' AND `id` = '2' AND `art_type` = '6' ) AND (  `art_title` = '鼻塞鼻炎' AND `id` = '43' AND `art_type` = '6' ) AND (  `art_title` = '偏头痛、紧张性头痛' AND `id` = '44' AND `art_type` = '6' ) AND (  `art_title` = '提神醒脑' AND `id` = '45' AND `art_type` = '6' ) AND (  `art_title` = '皮肤瘙痒、疖肿' AND `id` = '46' AND `art_type` = '6' ) AND (  `art_title` = '舟车眩晕' AND `id` = '47' AND `art_type` = '6' ) AND (  `art_title` = '腹痛腹泻，痛经' AND `id` = '48' AND `art_type` = '6' ) AND (  `art_title` = '风湿' AND `id` = '49' AND `art_type` = '6' ) AND (  `art_title` = '沐浴' AND `id` = '50' AND `art_type` = '6' ) ORDER BY art_time desc LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( son_id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:22+08:00 ] 220.243.136.132 /index.php/Mobile/Index/drugstore/id/101.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_pharmacy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_pharmacy`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.136.195 /index.php/Mobile/Index/drugstore/id/101.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_pharmacy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_pharmacy`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.136.69 /index.php/Mobile/Article/pages/id/7/ids/65.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=65 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=65 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.135.69 /index.php/Mobile/Article/pages/id/7/ids/65.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=65 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=65 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.136.195 /index.php/Mobile/Article/index_page/ids/49.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_print` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map1 E:\project\lfs-master\App\Runtime\Cache\Mobile\8a2d54b6d759bce3c6a914bfc534ec71.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.135.132 /index.php/Mobile/Article/product/id/100.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` IN ('1','2','3','4','5') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( pid=86 ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.136.132 /index.php/Mobile/Article/brand/id/102.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY p.id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 102 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=102 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( pid=92 ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.135.132 /index.php/Mobile/Article/product/id/100.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` IN ('1','2','3','4','5') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( pid=86 ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.135.195 /index.php/Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type`,`art_info`,`art_img` FROM `web_article` WHERE ( art_type=7 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.136.195 /index.php/Mobile/Article/index_page/ids/49.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_print` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map1 E:\project\lfs-master\App\Runtime\Cache\Mobile\8a2d54b6d759bce3c6a914bfc534ec71.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:23+08:00 ] 220.243.136.69 /Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type`,`art_info`,`art_img` FROM `web_article` WHERE ( art_type=7 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:24+08:00 ] 220.243.135.7 /Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type`,`art_info`,`art_img` FROM `web_article` WHERE ( art_type=7 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\eaaa4603e659289cf24a7ed1f615185e.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:24+08:00 ] 220.243.136.169 /index.php/Mobile/Article/pages/id/7/ids/78.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=78 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=78 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 78 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:28:26+08:00 ] 220.243.135.75 /index.php/Mobile/Article/activitylist/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=6 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE (  `art_title` = '虫蚊咬伤' AND `id` = '1' AND `art_type` = '6' ) AND (  `art_title` = '感冒头痛' AND `id` = '2' AND `art_type` = '6' ) AND (  `art_title` = '鼻塞鼻炎' AND `id` = '43' AND `art_type` = '6' ) AND (  `art_title` = '偏头痛、紧张性头痛' AND `id` = '44' AND `art_type` = '6' ) AND (  `art_title` = '提神醒脑' AND `id` = '45' AND `art_type` = '6' ) AND (  `art_title` = '皮肤瘙痒、疖肿' AND `id` = '46' AND `art_type` = '6' ) AND (  `art_title` = '舟车眩晕' AND `id` = '47' AND `art_type` = '6' ) AND (  `art_title` = '腹痛腹泻，痛经' AND `id` = '48' AND `art_type` = '6' ) AND (  `art_title` = '风湿' AND `id` = '49' AND `art_type` = '6' ) AND (  `art_title` = '沐浴' AND `id` = '50' AND `art_type` = '6' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title` FROM `web_article` WHERE (  `art_title` = '虫蚊咬伤' AND `id` = '1' AND `art_type` = '6' ) AND (  `art_title` = '感冒头痛' AND `id` = '2' AND `art_type` = '6' ) AND (  `art_title` = '鼻塞鼻炎' AND `id` = '43' AND `art_type` = '6' ) AND (  `art_title` = '偏头痛、紧张性头痛' AND `id` = '44' AND `art_type` = '6' ) AND (  `art_title` = '提神醒脑' AND `id` = '45' AND `art_type` = '6' ) AND (  `art_title` = '皮肤瘙痒、疖肿' AND `id` = '46' AND `art_type` = '6' ) AND (  `art_title` = '舟车眩晕' AND `id` = '47' AND `art_type` = '6' ) AND (  `art_title` = '腹痛腹泻，痛经' AND `id` = '48' AND `art_type` = '6' ) AND (  `art_title` = '风湿' AND `id` = '49' AND `art_type` = '6' ) AND (  `art_title` = '沐浴' AND `id` = '50' AND `art_type` = '6' ) ORDER BY art_time desc LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( son_id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-11-30T15:28:27+08:00 ] 220.243.135.49 /index.php/Mobile/Article/pages/id/7/ids/80.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=80 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=80 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T15:32:08+08:00 ] 203.208.60.78 /index.php/Mobile/Article/brand/id/102.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY p.id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 102 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=102 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( pid=92 ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 76 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\e5f0e7ccb1a565e56e71cdd35ef69ff2.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T16:47:49+08:00 ] 203.208.60.115 /index.php/Mobile/Article/pagess/id/103.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id` FROM `web_article` WHERE ( art_type=14 )  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 82 行.
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\822c5df4ef162d7f75d0b1fffe6f57e6.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T18:03:36+08:00 ] 203.208.60.89 /index.php/Mobile/Article/activitylist/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=7 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE (  `art_title` = '摄影大赛' AND `id` = '51' AND `art_type` = '7' ) AND (  `art_title` = '太极养生' AND `id` = '62' AND `art_type` = '7' ) AND (  `art_title` = '景区公益活动' AND `id` = '63' AND `art_type` = '7' ) AND (  `art_title` = '罗浮山中医药博览会' AND `id` = '64' AND `art_type` = '7' ) AND (  `art_title` = '南国书香节' AND `id` = '65' AND `art_type` = '7' ) AND (  `art_title` = '创意陈列大赛' AND `id` = '66' AND `art_type` = '7' ) AND (  `art_title` = '六一亲子登山赛' AND `id` = '78' AND `art_type` = '7' ) AND (  `art_title` = '清凉一夏公益活动' AND `id` = '80' AND `art_type` = '7' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title` FROM `web_article` WHERE (  `art_title` = '摄影大赛' AND `id` = '51' AND `art_type` = '7' ) AND (  `art_title` = '太极养生' AND `id` = '62' AND `art_type` = '7' ) AND (  `art_title` = '景区公益活动' AND `id` = '63' AND `art_type` = '7' ) AND (  `art_title` = '罗浮山中医药博览会' AND `id` = '64' AND `art_type` = '7' ) AND (  `art_title` = '南国书香节' AND `id` = '65' AND `art_type` = '7' ) AND (  `art_title` = '创意陈列大赛' AND `id` = '66' AND `art_type` = '7' ) AND (  `art_title` = '六一亲子登山赛' AND `id` = '78' AND `art_type` = '7' ) AND (  `art_title` = '清凉一夏公益活动' AND `id` = '80' AND `art_type` = '7' ) ORDER BY art_time desc LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( son_id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T19:19:23+08:00 ] 203.208.60.115 /index.php/Mobile/Article/products/id/2/ids/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=2 ) ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T19:57:46+08:00 ] 203.208.60.48 /index.php/mobile/article/activitylist/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=7 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE (  `art_title` = '摄影大赛' AND `id` = '51' AND `art_type` = '7' ) AND (  `art_title` = '太极养生' AND `id` = '62' AND `art_type` = '7' ) AND (  `art_title` = '景区公益活动' AND `id` = '63' AND `art_type` = '7' ) AND (  `art_title` = '罗浮山中医药博览会' AND `id` = '64' AND `art_type` = '7' ) AND (  `art_title` = '南国书香节' AND `id` = '65' AND `art_type` = '7' ) AND (  `art_title` = '创意陈列大赛' AND `id` = '66' AND `art_type` = '7' ) AND (  `art_title` = '六一亲子登山赛' AND `id` = '78' AND `art_type` = '7' ) AND (  `art_title` = '清凉一夏公益活动' AND `id` = '80' AND `art_type` = '7' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title` FROM `web_article` WHERE (  `art_title` = '摄影大赛' AND `id` = '51' AND `art_type` = '7' ) AND (  `art_title` = '太极养生' AND `id` = '62' AND `art_type` = '7' ) AND (  `art_title` = '景区公益活动' AND `id` = '63' AND `art_type` = '7' ) AND (  `art_title` = '罗浮山中医药博览会' AND `id` = '64' AND `art_type` = '7' ) AND (  `art_title` = '南国书香节' AND `id` = '65' AND `art_type` = '7' ) AND (  `art_title` = '创意陈列大赛' AND `id` = '66' AND `art_type` = '7' ) AND (  `art_title` = '六一亲子登山赛' AND `id` = '78' AND `art_type` = '7' ) AND (  `art_title` = '清凉一夏公益活动' AND `id` = '80' AND `art_type` = '7' ) ORDER BY art_time desc LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( son_id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T19:58:21+08:00 ] 203.208.60.119 /index.php/Mobile/Article/Activity/id/7/ids/65.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=65 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=65 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T19:58:37+08:00 ] 203.208.60.12 /index.php/Mobile/Article/Activity/id/7/ids/63.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=63 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=63 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T19:58:53+08:00 ] 203.208.60.97 /index.php/Mobile/Article/Activity/id/7/ids/80.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=80 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=80 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T19:59:03+08:00 ] 203.208.60.108 /index.php/Mobile/Article/Activity/id/7/ids/51.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=51 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=51 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-11-30T19:59:15+08:00 ] 203.208.60.122 /index.php/Mobile/Article/Activity/id/7/ids/62.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=62 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=62 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T19:59:27+08:00 ] 203.208.60.28 /index.php/Mobile/Article/Activity/id/7/ids/78.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=78 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=78 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 78 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T19:59:39+08:00 ] 203.208.60.118 /index.php/Mobile/Article/Activity/id/7/ids/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=64 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=64 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T19:59:51+08:00 ] 203.208.60.55 /index.php/Mobile/Article/Activity/id/7/ids/66.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=66 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=66 ) ORDER BY id desc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\37a241d9996ef54d74760b0140af4e17.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T20:00:03+08:00 ] 203.208.60.79 /index.php/Mobile/Article/pages/id/13/ids/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=9 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T20:00:17+08:00 ] 203.208.60.11 /index.php/Mobile/Article/pages/id/13/ids/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type>=8 and art_type<13 )  [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  pid=92 ) AND (  a.art_type<>13 ) GROUP BY p.name ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=21 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 85 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Mobile\38f57791a5cff46dd66092a6ecb73e03.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T20:35:13+08:00 ] 203.208.60.119 /index.php/Mobile/Article/products/id/5/ids/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=5 ) ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T21:50:58+08:00 ] 203.208.60.84 /index.php/Mobile/Article/products/id/4/ids/42.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=4 ) ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-30T23:06:45+08:00 ] 203.208.60.14 /index.php/Mobile/Article/products/id/1/ids/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type`,`art_info` FROM `web_article` WHERE ( art_type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.name FROM web_power as p INNER JOIN web_article as a on p.son_id = a.art_type  WHERE ( a.id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( p.pid=86 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.art_type=1 ) ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\project\lfs-master\App\Runtime\Cache\Mobile\66d5384ed3f8eddfdb1e588e4d49cf79.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

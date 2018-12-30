@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>罗浮山百草油</title>
+     <meta name="keywords" content="<{$config.keywords}>"/>
+     <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/home/BCYCSSs.css" rel="stylesheet" />
+</head>
+<body>
+	<include file='Common:menu'/>
+    <div class="bodydiv w10">
+        <ul class="productleft">
+            <li class="first"></li>
+            <li><a href="<{:U('Article/pages',array('id'=>'1','ids'=>'35'))}>" <if condition='$Think.get.id eq 1 ' > class="producthot" </if> >产品简介</a></li>
+            <li><a href="<{:U('Article/pages',array('id'=>'4','ids'=>'42'))}>" <if condition='$Think.get.id eq 4 ' > class="producthot" </if> >功效推荐</a></li>
+            <li><a href="<{:U('Article/pages',array('id'=>'5','ids'=>'33'))}>" <if condition='$Think.get.id eq 5 ' > class="producthot" </if> >产品荣誉</a></li>
+            <foreach item="v" name="data" key="k">
+                <li><a href="<{:U('Article/product',array('id'=>$v['art_type']))}>" ><{$v.name}></a></li>
+            </foreach>
+            <li class="last"></li>
+        </ul>
+        <div class="productright">
+            <div class="productrighttwo" style="overflow-y: hidden;  min-height: 612px;height:auto;">
+                  <if condition='$Think.get.id eq "100" ' >
+                    <div class="callcenter" style="margin:-6% -6%;width: 103%">
+                        <div style="    color: #8d5028;">
+                            <{$relust.art_content}>
+                        </div>
+                    </div>
+                    <else/>
+
+                    <div class="callcenter" style="margin:-6% -6%;width: 103%">
+                        <foreach item="v" name='list' key="k">
+                            <a href="<{:U('Article/pages',array('id'=>$v['art_type'],ids=>$v['id']))}>" >
+                        <div style="width: 100%;height: 150px;margin: 5% 0%;border-bottom: 1px solid #d7cfbc">
+                            <div style="float: left;width: 20%;height: 100%"><img src="/<{$v.art_img}>" alt="" style="width: 90%;height: 90%;"></div>
+                            <div style="float: left;width: 70%;height: 100%">
+                                <p style="font-size: 25px;margin-bottom: 15px;line-height: 120px"> <span><{$v.art_title}></span></p>
+
+                            </div>
+                        </div> </a> </foreach>
+
+
+                    </div>
+                </if>
+            </div>
+        </div>
+    </div>
+
+   <include file='Common:foot' />
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>罗浮山百草油</title>
+     <meta name="keywords" content="<{$config.keywords}>"/>
+     <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/home/BCYCSSs.css" rel="stylesheet" />
+</head>
+<body>
+   <include file='Common:menu' />
+      <div class="bodydiv w10">
+        <div class="productright" style="width: 980px">
+                <if condition='$Think.get.id eq "40" ' >
+                      <div class="callcenter" >
+                    <div style="    color: #8d5028;">
+                        <ul class="sharingul">
+                            <foreach item="v" name="map" key="k">
+                                <li><a href="<{:U('Article/pages_chanp',array('id'=>$v['art_type'],'ids'=>$v['id']))}>" ><{$v.art_title}></a></li>
+                            </foreach>
+                        </ul>
+                    </div>
+                            </div>
+                <else/>
+                <div class="callcenter" style="min-height: 680px; overflow-y: hidden;height: auto;width: 918px">
+                <ul class="sharingul">
+                    <foreach item="v" name="map" key="k">
+                        <li><a href="<{:U('Article/pages_chanp',array('id'=>$v['art_type'],'ids'=>$v['id']))}>" ><{$v.art_title}></a></li>
+                    </foreach>
+            </ul>
+             <div class="page">
+              <{$page}>
+            </div>
+                      </div>
+                </if>
+         
+        </div>
+    </div>
+
+
+    <include file='Common:foot' />
+</body>
+</html>

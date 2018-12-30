@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>罗浮山百草油</title>
+     <meta name="keywords" content="<{$config.keywords}>"/>
+     <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/home/BCYCSSs.css" rel="stylesheet" />
+</head>
+<body>
+	<include file='Common:menu' />
+
+    <div class="bodydiv w10">
+           <ul class="productleft">
+               <li class="first"></li>
+               <li><a href="<{:U('Article/pages',array('id'=>'1','ids'=>'35'))}>" <if condition='$Think.get.id eq 1 ' > class="producthot" </if> >产品简介</a></li>
+               <li><a href="<{:U('Article/pages',array('id'=>'4','ids'=>'42'))}>" <if condition='$Think.get.id eq 4 ' > class="producthot" </if> >功效推荐</a></li>
+               <li><a href="<{:U('Article/pages',array('id'=>'5','ids'=>'33'))}>" <if condition='$Think.get.id eq 5 ' > class="producthot" </if> >产品荣誉</a></li>
+               <foreach item="v" name="data" key="k">
+                   <li><a href="<{:U('Article/product',array('id'=>$v['art_type']))}>" ><{$v.name}></a></li>
+               </foreach>
+               <li class="last"></li>
+           </ul>
+        <div class="productright">
+            <div class="productrighttwo">
+
+            <{$data1.art_content}>
+            </div>
+        </div>
+    </div>
+
+   <include file='Common:foot' />
+</body>
+</html>

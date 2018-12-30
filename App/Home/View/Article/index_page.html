@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>罗浮山百草油</title>
+     <meta name="keywords" content="<{$config.keywords}>"/>
+     <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/home/BCYCSSs.css" rel="stylesheet" />
+</head>
+<body>
+  <include file='Common:menu' />
+
+    <div class="gopharmacy">
+        <div class="sharingdiv"> 
+             <div style='font-size: 18px;text-align: center;height:30px;line-height: 30px;'><{$relust.title}></div>
+           
+            <div style='font-size: 14px;text-align: center;height:25px;line-height: 25px;'> <{$relust.time|date='Y-m-d',###}></div>
+            <!--<div style="line-height: 30px;">-->
+            <{$relust.content}>
+            <!--</div>-->
+        </div>
+    </div>
+
+    <include file='Common:foot' />
+</body>
+</html>

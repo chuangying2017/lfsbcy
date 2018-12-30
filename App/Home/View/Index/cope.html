@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>罗浮山百草油</title>
+    <meta name="keywords" content="<{$config.keywords}>" />
+    <meta name="description" content="<{$config.description}>" />
+    <link href="__STYLE__/home/BCYCSSs.css" rel="stylesheet" />
+    <style type="text/css">
+        body,
+        html,
+        #l-map {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=3E298706f055a5e23f063a1413f21565"></script>
+
+</head>
+<style>
+    body {
+        background-position: 0
+    }
+</style>
+
+<body style="">
+    <include file='Common:menu' />
+    <style>
+        .pore {
+            position: relative;
+            width: 100%;
+            background-image: url('__IMG__/home/bcg.jpg'); background-size: 100% 100%
+        }
+    </style>
+    <div class="pore">
+        <div class="gopharmacy">
+            <div class="gopharmacytwo">
+                <div class="findstorediv">
+                    <div class="findstore">查找门店</div>
+                    <div class="storeaddressdiv">
+                        <div id="region_container" style="width:150px;float:left;">
+                            <input class="text" type="text" id="address" name="address" style="margin-bottom:5px;height:28px;line-height:28px;width:100%"
+                            />
+                        </div>
+                        <a class="search" onclick="search_map();">搜索</a>
+                    </div>
+                </div>
+                <div class="neareststore">
+                    <div class="findstore">最近门店</div>
+                    <div class="storediv" id="nearAddress">
+                        <div class="storeaname" id="name">百姓大药房</div>
+                        <div class="storeadd" id="info"></div>
+                        <div class="storeadd" id="phone"></div>
+                    </div>
+                </div>
+                <div class="storemap" style="width: 570px; height: 434px;" id="allmap">
+                    <!--<img src="__IMG__/home/gopharmacy3.jpg" class="map" />-->
+                </div>
+                <ul class="addressmore" id="listLi">
+                    <volist name="list" id="vo">
+                        <li>
+                            <div class="one">
+                                <{$vo.name}>
+                            </div>
+                            <div class="two">
+                                <{$vo.address}>
+                            </div>
+                            <div class="two">
+                                <{$vo.tel}>
+                            </div>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="lng" value="114.331398" />
+    <input type="hidden" id="lat" value="23.897445" />
+    <input type="hidden" id="lng1" value="" />
+    <input type="hidden" id="lat1" value="" />
+    <include file='Common:foot' />
+</body>
+
+</html>
+<script src="__JS__/home/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="__PUBLIC__/H-ui/lib/address/addre_area.js"></script>
+<script type="text/javascript" src="__PUBLIC__/H-ui/lib/address/address-select.min.js"></script>
+<script type="text/javascript">
+    var lng = $("#lng").val();
+    var lat = $("#lat").val();
+    var map = new BMap.Map("allmap");
+    var point = new BMap.Point(lng, lat);
+    $(function () {
+        // 百度地图API功能
+        map.centerAndZoom(point, 15);
+        map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+        var geolocation = new BMap.Geolocation();
+        geolocation.getCurrentPosition(function (r) {
+            if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+                $("#lng").val(r.point.lng);
+                $("#lat").val(r.point.lat);
+                var point = new BMap.Point(r.point.lng, r.point.lat);
+                map.centerAndZoom(point, 18);
+                var options = {
+                    onSearchComplete: function (results) {
+                        // 判断状态是否正确
+                        //if (local.getStatus() == BMAP_STATUS_SUCCESS) {
+                        var htmlStr = "";
+                        for (var i = 0; i < results.getCurrentNumPois(); i++) {
+                            var title = results.getPoi(i).title;
+                            var address = results.getPoi(i).address;
+                            var phoneNumber = results.getPoi(i).phoneNumber;
+
+                            if (typeof (phoneNumber) == "undefined") {
+                                phoneNumber = '';
+                            } else {
+                                phoneNumber = '<div class="two">' + phoneNumber + '</div>';
+                            }
+                            htmlStr += '<li><div class="one">' + title + '</div><div class="two">' + address + '</div>' + phoneNumber + '</li>';
+
+                            //s.push(results.getPoi(i).title + ", " + results.getPoi(i).address + ", " + results.getPoi(i).phoneNumber);
+                            //console.log(results.getPoi(i));
+                            if (i == 0) {
+                                var oneHtml = '<div class="storeaname" id="name">' + title + '</div> <div class="storeadd" id="info">' + address + '</div><div class="storeadd" id="phone">' + phoneNumber + '</div>';
+                                $("#nearAddress").html(oneHtml);
+                            }
+                        }
+
+                        $("#listLi").html(htmlStr);
+                        //}
+
+                    }
+                };
+                var local1 = new BMap.LocalSearch(map, options);
+                local1.search("药房", "药店");
+                var local = new BMap.LocalSearch(map, {
+                    renderOptions: { map: map }
+                });
+                local.search("药房", "药店");
+            }
+            else {
+                alert('找不到您的位置' + this.getStatus());
+            }
+        }, { enableHighAccuracy: true })
+
+    });
+
+    function search_map() {
+        yichu();
+        var address = $("#address").val();
+        // 创建地址解析器实例
+        var myGeo = new BMap.Geocoder();
+        myGeo.getPoint(address, function (point) {
+            if (point) {
+                map.clearOverlays();
+                map.centerAndZoom(point, 16);
+                map.addOverlay(new BMap.Marker(point));
+                //console.log(point);
+                var options = {
+                    onSearchComplete: function (results) {
+                        // 判断状态是否正确
+                        if (local.getStatus() == BMAP_STATUS_SUCCESS) {
+                            var htmlStr = "";
+                            for (var i = 0; i < results.getCurrentNumPois(); i++) {
+                                console.log(results.getPoi(i));
+                                var title = results.getPoi(i).title;
+                                var address = results.getPoi(i).address;
+                                var phoneNumber = results.getPoi(i).phoneNumber;
+                                if (typeof (phoneNumber) == "undefined") {
+                                    phoneNumber = '';
+                                } else {
+                                    phoneNumber = '<div class="two">' + phoneNumber + '</div>';
+                                }
+                                htmlStr += '<li><div class="one">' + title + '</div><div class="two">' + address + '</div>' + phoneNumber + '</li>';
+
+                                //s.push(results.getPoi(i).title + ", " + results.getPoi(i).address + ", " + results.getPoi(i).phoneNumber);
+                                //console.log(results.getPoi(i));
+                                if (i == 0) {
+                                    var oneHtml = '<div class="storeaname" id="name">' + title + '</div> <div class="storeadd" id="info">' + address + '</div><div class="storeadd" id="phone">' + phoneNumber + '</div>';
+                                    $("#nearAddress").html(oneHtml);
+                                }
+                            }
+                            $("#listLi").html(htmlStr);
+                        }
+                    }
+                };
+                var local1 = new BMap.LocalSearch(map, options);
+                local1.search($(".text").val());
+                var local = new BMap.LocalSearch(map, {
+                    renderOptions: { map: map }
+                });
+                local.search($(".text").val());
+
+            } else {
+                alert("请输入您要查找的城市!");
+            }
+        }, "惠州市");
+    }
+    function yichu() {
+        for (var i = 0; i < map.getOverlays().length; i++) {
+            map.removeOverlay(map.getOverlays()[i]);
+            if (i > 0) {
+                i--;
+            }
+        } if (map.getOverlays().length > 0) {
+            map.removeOverlay(map.getOverlays()[0]);
+        }
+    }
+
+
+    $(function () {
+        $(".text").val("必须在药店前输入城市名");
+        $(".text").css("color", "gray");
+        $(".text").focus(function () {
+            var val = $(".text").val();
+            if (val == "必须在药店前输入城市名") {
+                $(".text").val("");
+                $(".text").css("color", "black");
+            }
+        });
+        $(".text").blur(function () {
+            var val = $(".text").val();
+            if (val == "") {
+                $(".text").val("必须在药店前输入城市名");
+                $(".text").css("color", "gray");
+            }
+        });
+    });
+
+</script>

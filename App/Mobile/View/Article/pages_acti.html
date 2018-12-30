@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><{$config.title}></title>
+    <meta name="keywords" content="<{$config.keywords}>"/>
+    <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/mobile/BCYCSS.css" rel="stylesheet" />
+</head>
+<body>
+<include file='Common:menu' />
+
+<div class="bodydiv w10">
+        <ul class="productleft">
+            <li class="first"></li>
+            <foreach item="v" name="map" key="k">
+                <li><a href="<{:U('Article/pages_acti',array('id'=>$v['art_type'],'ids'=>$v['id']))}>" ><{$v.art_title}></a></li>
+            </foreach>
+            <li class="last"></li>
+        </ul>
+    <div class="productright">
+        <div class="productrighttwo">
+
+            <!--<div style="line-height: 30px;">-->
+            <{$relust.art_content}>
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+<include file='Common:foot' />
+</body>
+</html>

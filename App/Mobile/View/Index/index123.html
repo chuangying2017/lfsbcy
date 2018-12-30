@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title><{$config.title}></title>
+     <meta name="keywords" content="<{$config.keywords}>"/>
+     <meta name="description" content="<{$config.description}>"/>
+    <link href="__STYLE__/home/BCYCSS.css" rel="stylesheet" />
+    <link href="__STYLE__/home/flexslider.css" rel="stylesheet" />
+    <script src="__JS__/home/jquery-1.8.3.min.js"></script>
+    <script src="__JS__/home/jquery.flexslider-min.js"></script>
+    <script type="text/javascript">
+            window.onload = $(function () {
+            $(".flexslider").flexslider({
+                slideshowSpeed: 4000, //展示时间间隔ms
+                animationSpeed: 400, //滚动时间ms
+                touch: true //是否支持触屏滑动
+            });
+
+            var oDiv = document.getElementById("rollss");
+            var oUl = oDiv.getElementsByTagName("ul")[0];
+            var oLi = oUl.getElementsByTagName("li");
+            var timer = null;
+            var iSpeed = -1;　// 滚动速度，数字越大，滚动越快！烈火(liehuo.net)网小编注。
+            oUl.innerHTML += oUl.innerHTML;
+            oUl.style.width = (oLi[0].offsetWidth + 255) * oLi.length + "px";
+            var fun = null;
+            fun = function () {
+                oUl.style.left = oUl.offsetLeft + iSpeed + "px";
+                if (oUl.offsetLeft < -oUl.offsetWidth / 2) {
+                    oUl.style.left = "0px";
+                }
+                else if (oUl.offsetLeft > 0) {
+                    oUl.style.left = -oUl.offsetWidth / 2 + "px";
+                };
+            };
+            timer = setInterval(fun, 30);
+            oUl.onmouseover = function () { //鼠标经过时  清除定时器  停止图片的滚动
+                clearInterval(timer);
+            };
+            oUl.onmouseout = function () {  //鼠标离开后  继续滚动图片
+                timer = setInterval(fun, 30);
+            };
+        });
+    </script>
+</head>
+<body>
+<include file='Common:menu' />
+
+    <!--图片轮播-->
+    <div class="flexslider">
+        <ul class="slides">
+            <volist name='list' id='vo'>
+                <li><a><img src="/<{$vo.image_path}>" /></a></li>
+            </volist>
+        </ul>
+    </div>
+    <!--图片轮播End-->
+
+<!--    <ul class="circle w10">
+        <volist name="printlist" id="vo">
+        <li>
+            <a class="circlea" href="<{:U('Article/page',array('id'=>$vo['art_type'],'ids'=>$vo['id']))}>">
+                <img src="/<{$vo.url_img}>" class="circleimg" />
+                <img src="__IMG__/home/circle.png" class="circleimg" />
+            </a>
+            <div class="circlename"><{$vo.title}></div>
+        </li>
+        </volist>
+        
+    </ul>-->
+
+<style>
+        #rollss { margin: 0; padding: 0; width: 1000px; margin: 38px auto 0; position: relative; }
+            #rollss .warpss { margin: 0; padding: 0; width: 1000px; height: 176px; text-align: center; overflow: hidden; position: relative; }
+            #rollss ul { margin: 0; padding: 0; list-style: none; position: absolute; left: 0; top: 0; height: 176px; }
+            #rollss li { margin: 0; padding: 0; list-style: none; float: left; width: 205px; height: 176px; line-height: 150px; margin-right: 50px; }
+            #rollss .circlea { margin: 0; padding: 0; float: left; display: block; width: 205px; height: 176px; margin: 0 auto; }
+            #rollss .circleimg { margin: 0; padding: 0; float: left; display: block; position: absolute; width: 205px; height: 146px; }
+            #rollss .circlename { margin: 0; padding: 0; float: left; display: block; position: absolute; top: 146px; width: 205px; line-height: 30px; text-align: center; color: #8d5028; font-size: 14px; }
+    </style>
+
+    <div id="rollss">
+        <div class="warpss">
+            <ul>
+                 <volist name="printlist" id="vo">
+                <li>
+                    <a class="circlea" href="<{:U('Article/index_page',array('id'=>'','ids'=>$vo['id']))}>">
+                       <img src="/<{$vo.url_img}>" class="circleimg" />
+                <img src="__IMG__/home/circle.png" class="circleimg" />
+                        <div class="circlename"><{$vo.title}></div>
+                    </a>
+                </li>
+             </volist>
+            </ul>
+        </div>
+    </div>
+
+   <include file='Common:foot' />
+</body>
+</html>

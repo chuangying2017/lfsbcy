@@ -1,0 +1,56 @@
+<include file='Common:head' />
+<title></title>
+</head>
+<body>
+<div class="pd-20">
+    <div class="Huiform">
+        <form action="<{:U('Index/indexadd')}>"  method="post" enctype="multipart/form-data" class="SubmiForm" id="form-article-add"  >
+            <input type="hidden" class="input-text" style="width:300px;" name="art_type" value="<{$type}>" datatype="*" nullmsg="pid不能为空" >
+            <table class="table table-bg">
+                <tbody>
+                <tr>
+                <th class="text-r"><span class="c-red">*</span> 添加栏目： </th>
+                <td><input type="text" style="width:300px" class="input-text" name="name" placeholder="" id="user-name" name="name" datatype="*" nullmsg="栏目"></td>
+                    </tr>
+                        <tr>
+                            <th class="text-c"><span class="c-red">*</span>  描述：</th>
+                            <td>
+                            <select name="pid" style="height: 30px;width: 100px">
+                                <foreach item="v" name="map1" key="k">
+                                    <option value="<{$v.pid}>"><{$v.name}></option>
+                                </foreach>
+                            </select>
+                            <!--<td><input type="text" class="input-text" style="width:900px;" name='pid'  datatype="*" nullmsg="描述不能为空">-->
+                            </td>
+                        </tr>
+                <tr>
+                    <th class="text-c"><span class="c-red">*</span>  跳转页面：</th>
+                    <td><input type="text" class="input-text" style="width:900px;" name='control_action'  datatype="*" value="Article/index?id=18">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="text-c"><span class="c-red">*</span>  页面ID：</th>
+                    <td><input type="text" class="input-text" style="width:900px;" name='son_id'  datatype="*" value="18" >
+                    </td>
+                </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <button  class="btn btn-primary radius"  type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+<include file='Common:foot' />
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__PUBLIC__/H-ui/lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="__PUBLIC__/H-ui/lib/webuploader/0.1.5/webuploader.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/H-ui/lib/ueditor/1.4.3/ueditor.config.js"></script>
+<script type="text/javascript" src="__PUBLIC__/H-ui/lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
+<script type="text/javascript" src="__PUBLIC__/H-ui/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/H-ui/lib/Validform/5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="__JS__/admin/jquery.form.js"  ></script>
+

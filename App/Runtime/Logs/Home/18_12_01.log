@@ -1,0 +1,2347 @@
+[ 2018-12-01T00:27:38+08:00 ] 95.163.255.103 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T03:25:53+08:00 ] 42.156.137.107 /index.php/article/pages/id/4/ids/195.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,p.son_id,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=86 ) AND (  p.son_id<>5 ) AND (  p.son_id<>1 ) AND (  p.son_id<>4 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=195 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T03:25:53+08:00 ] 106.11.158.156 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T03:25:54+08:00 ] 106.11.158.156 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T03:25:55+08:00 ] 221.197.66.58 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T03:26:02+08:00 ] 42.243.126.72 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T03:27:59+08:00 ] 101.132.98.159 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-12-01T03:55:42+08:00 ] 47.92.75.171 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T04:04:24+08:00 ] 106.11.157.60 /index.php/Article/pages/id/5/ids/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,p.son_id,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=86 ) AND (  p.son_id<>5 ) AND (  p.son_id<>1 ) AND (  p.son_id<>4 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T04:04:26+08:00 ] 42.156.137.30 /index.php/Article/product/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=86 ) AND (  son_id<>1 ) AND (  son_id<>4 ) AND (  son_id<>5 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE ( art_type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE `art_status` = 1 AND `art_type` = '3' ORDER BY p.id  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\b36eabf4c6fd8667aa05b85706545f38.php 第 77 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\b36eabf4c6fd8667aa05b85706545f38.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T04:06:42+08:00 ] 113.77.121.86 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T04:06:44+08:00 ] 113.77.121.86 /Public/images/home/1_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T04:06:48+08:00 ] 113.77.121.86 /Public/images/home_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T04:14:39+08:00 ] 203.208.60.84 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T04:54:39+08:00 ] 111.172.35.215 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2018-12-01T05:20:29+08:00 ] 106.11.154.108 /index.php/Article/pages/id/3/ids/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,p.son_id,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=86 ) AND (  p.son_id<>5 ) AND (  p.son_id<>1 ) AND (  p.son_id<>4 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T06:21:33+08:00 ] 101.132.177.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T07:03:25+08:00 ] 47.93.54.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T07:19:24+08:00 ] 42.120.161.30 /index.php/Article/pages/id/3/ids/37.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,p.son_id,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=86 ) AND (  p.son_id<>5 ) AND (  p.son_id<>1 ) AND (  p.son_id<>4 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=37 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T08:02:56+08:00 ] 47.97.215.92 /index.php/Article/pagess/id/14/ids/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T08:55:32+08:00 ] 185.234.219.246 /index.php/Article/about/id/103.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T08:55:35+08:00 ] 185.234.219.246 /index.php/Article/about/id/103.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_message` [ RunTime:0.0156s ]
+SQL: INSERT INTO `web_message` (`content`) VALUES ('Quicker and Simpler than the SBA, http://Fast-Funding-Advisors.com can get your business a loan for $2K-350,000 With low-credit and without collateral. 
+ 
+Use our fast form to See exactly how much you can get, No-Cost: 
+ 
+http://Fast-Funding-Advisors.com 
+ 
+If you\'ve been in business for at least a year you are already pre-qualified. Our Fast service means funding can be finished within 48 hours. Terms are specific for each business so I suggest applying to find out exactly how much you can get. 
+ 
+This is a free service from a qualified lender and the approval will be based on the annual revenue of your business. Funds have no Restrictions, allowing you to use the whole amount in any way including bills, taxes, hiring, marketing, expansion, or Absolutely Any Other expense. 
+ 
+There are limited SBA and private funds available so please apply now if interested: 
+ 
+http://Fast-Funding-Advisors.com 
+ 
+Have a great day, 
+The Fast Funding Advisors Team 
+ 
+remove here - http://Fast-Funding-Advisors.com/r.php?url=lfsbcy.com&amp;id=e125') [ RunTime:0.0156s ]
+
+[ 2018-12-01T09:01:39+08:00 ] 183.3.226.234 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-12-01T09:02:39+08:00 ] 61.151.179.84 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T09:28:31+08:00 ] 106.11.155.43 /index.php/article/pages_pp/id/13/ids/134.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=92 ) AND (  p.son_id<>13 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=134 ) GROUP BY p.name ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T09:56:17+08:00 ] 183.3.226.234 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-12-01T10:03:01+08:00 ] 42.156.137.51 /index.php/Article/brand/id/102.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=92 ) AND (  p.son_id<>13 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE ( art_type=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=102 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 102 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE `art_status` = 1 AND `art_type` = '102' ORDER BY p.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T10:15:31+08:00 ] 42.156.139.64 /index.php/article/pages/id/7/ids/126.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,p.son_id,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=86 ) AND (  p.son_id<>5 ) AND (  p.son_id<>1 ) AND (  p.son_id<>4 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=126 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T10:52:50+08:00 ] 40.77.167.0 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T11:11:23+08:00 ] 101.132.97.6 /index.php/Article/pagess/id/14/ids/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_article` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T11:39:35+08:00 ] 106.11.159.53 /index.php/Article/about/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T11:52:00+08:00 ] 106.11.153.106 /index.php/article/pages_pp/id/9/ids/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=92 ) AND (  p.son_id<>13 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=18 ) GROUP BY p.name ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:06:29+08:00 ] 106.38.241.145 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T12:06:39+08:00 ] 106.38.241.145 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:24:34+08:00 ] 101.132.69.5 /index.php/Article/about/id/14/r/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type` FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 14 ORDER BY art_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:41:28+08:00 ] 113.100.201.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:41:30+08:00 ] 113.100.201.225 /Public/images/home_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:41:33+08:00 ] 113.100.201.225 /Public/images/home/1_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:43:13+08:00 ] 223.104.1.96 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:43:15+08:00 ] 223.104.1.96 /Public/images/home_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:43:15+08:00 ] 223.104.1.96 /Public/images/home/1_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:43:36+08:00 ] 223.104.1.96 /index.php/Article/product/id/100.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=86 ) AND (  son_id<>1 ) AND (  son_id<>4 ) AND (  son_id<>5 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE ( art_type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 100 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE `art_status` = 1 AND `art_type` = '100' ORDER BY p.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:43:37+08:00 ] 223.104.1.96 /Public/images/home_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:43:59+08:00 ] 223.104.1.96 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T12:43:59+08:00 ] 223.104.1.96 /Public/images/home_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:43:59+08:00 ] 223.104.1.96 /Public/images/home/1_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:48:00+08:00 ] 106.11.156.57 /index.php/article/pages_pp/id/13/ids/142.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=92 ) AND (  p.son_id<>13 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=142 ) GROUP BY p.name ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T12:48:02+08:00 ] 106.11.152.38 /index.php/index/drugstore/id/101.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_pharmacy` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_pharmacy`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T13:11:52+08:00 ] 47.97.216.82 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T13:44:01+08:00 ] 106.11.154.76 /index.php/Article/about/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T14:27:45+08:00 ] 183.136.190.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T14:27:45+08:00 ] 183.136.190.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T14:39:45+08:00 ] 120.79.217.140 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T14:46:34+08:00 ] 47.97.216.82 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T14:50:23+08:00 ] 203.208.60.58 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T14:50:23+08:00 ] 203.208.60.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T15:06:28+08:00 ] 42.236.99.65 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T15:06:49+08:00 ] 42.236.99.166 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T15:34:01+08:00 ] 106.11.158.106 /index.php/Article/about/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`art_title`,`art_img`,`art_type` FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 14 ORDER BY art_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T15:38:56+08:00 ] 157.55.39.2 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T16:08:39+08:00 ] 47.92.100.7 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:15:52+08:00 ] 47.92.141.208 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:32:13+08:00 ] 157.55.39.227 /index.php/Article/index_page/ids/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 16 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 17 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 18 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 19 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 20 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 21 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:42:53+08:00 ] 220.181.108.112 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:43:02+08:00 ] 111.206.221.44 /Public/images/home/1_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:43:02+08:00 ] 111.206.221.79 /Public/images/home_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:44:26+08:00 ] 42.156.137.82 /index.php/Article/index_page/ids/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 16 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 17 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 18 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 19 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 20 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 21 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\fdda79e786e79bf90ef9ec6cc05f16e4.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T16:49:56+08:00 ] 203.208.60.29 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T17:41:56+08:00 ] 42.156.139.70 /index.php/Article/brand/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=92 ) AND (  p.son_id<>13 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE ( art_type=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=13 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE `art_status` = 1 AND `art_type` = '13' ORDER BY p.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 61 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 77 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 77 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 77 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 77 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 77 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 77 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 77 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\495c471800f45619650df6c55ba66a73.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T19:54:29+08:00 ] 106.11.157.72 /index.php/Article/pages_pp/id/13/ids/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=92 ) AND (  p.son_id<>13 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=9 ) GROUP BY p.name ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T20:37:15+08:00 ] 119.23.173.89 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-12-01T20:57:10+08:00 ] 47.93.54.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T21:46:40+08:00 ] 157.55.39.227 /index.php/Article/activitylist/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.art_title,a.id,a.art_type FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( pid=85 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `art_title`,`id`,`art_type` FROM `web_article` WHERE ( art_type=6 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE `art_status` = 1 AND `art_type` = '6' ORDER BY p.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T21:58:26+08:00 ] 106.11.155.56 /index.php/Article/pages_pp/id/13/ids/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0156s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=92 ) AND (  p.son_id<>13 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=21 ) GROUP BY p.name ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+NOTIC: [8] Use of undefined constant ids - assumed 'ids' E:\project\lfs-master\App\Runtime\Cache\Home\13531dffebc05c57f83798263d9a1561.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T22:40:58+08:00 ] 106.11.154.43 /index.php/article/pages/id/7/ids/127.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,p.son_id,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=86 ) AND (  p.son_id<>5 ) AND (  p.son_id<>1 ) AND (  p.son_id<>4 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE ( a.id=127 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T22:41:00+08:00 ] 119.23.173.89 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T22:43:23+08:00 ] 194.44.247.218 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T23:01:10+08:00 ] 40.77.167.0 /index.php/article/product/id/100.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_power` [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE (  p.pid=86 ) AND (  son_id<>1 ) AND (  son_id<>4 ) AND (  son_id<>5 ) GROUP BY p.name ORDER BY p.id  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_article` WHERE ( art_type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` WHERE `art_status` = 1 AND `art_type` = 100 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT p.pid,p.id,p.name,a.* FROM web_power as p INNER JOIN web_article as a on p.son_id=a.art_type  WHERE `art_status` = 1 AND `art_type` = '100' ORDER BY p.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T23:07:18+08:00 ] 106.38.241.150 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-12-01T23:07:27+08:00 ] 106.38.241.150 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-01T23:35:32+08:00 ] 219.140.123.127 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2018-12-01T23:49:30+08:00 ] 206.180.165.147 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_webconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_webconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_links` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `web_links`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `web_print` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_picture` WHERE `type` = 1 AND `status` = 1 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `web_print` ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 53 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 54 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 55 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 56 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 57 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 58 行.
+NOTIC: [8] Undefined index: id E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 59 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+NOTIC: [8] Undefined index: art_type E:\project\lfs-master\App\Runtime\Cache\Home\c32e507a594174b70cf14c59be38c22a.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

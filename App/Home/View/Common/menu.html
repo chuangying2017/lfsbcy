@@ -1,0 +1,55 @@
+    <div class="head w10 head-img">
+        <!-- <a class="logo" href="/">
+            <img src="__IMG__/home/logo.jpg" class="logoimg" />
+        </a> -->
+        <div class="width-header">
+        <div class="column">
+            <a  <if condition='$Think.get.id eq null ' > class="columna columhot" <else/>class="columna" </if>  href="<{:U('Index/index')}>">首页</a>
+            <a  <in name='Think.get.id' value="2,3,4,5,100" > class="columna columhot" <else/>class="columna" </in> href="<{:U('Article/product',array('id'=>'100'))}>">产品介绍</a>
+            <a  <in name='Think.get.id' value="6" > class="columna columhot" <else/>class="columna" </in> href="<{:U('Article/activitylist',array('id'=>'6'))}>">使用方法</a>
+            <a  <in name='Think.get.id' value="101" > class="columna columhot" <else/>class="columna" </in> href="<{:U('Index/drugstore',array('id'=>'101'))}>">G O药店</a>
+            <a  <in name='Think.get.id' value="7" > class="columna columhot" <else/>class="columna" </in> href="<{:U('Article/huodong',array('id'=>'7'))}>">活动分享</a>
+            <a  <in name='Think.get.id' value="102,8,9,10,11,12,13" > class="columna columhot" <else/>class="columna" </in> href="<{:U('Article/brand',array('id'=>'102'))}>">品牌文化</a>
+            <a  <in name='Think.get.id' value="103,14,19,20" > class="columna columhot" <else/>class="columna" </in> href="<{:U('Article/about',array('id'=>'19'))}>">客服中心</a>
+        </div>
+    </div>
+    </div>
+    <style>
+        .width-header {
+            width: 100%;
+            background: #179c6d;
+            float: left;
+            margin-top: -2px;
+        }
+        .head {
+            padding-top: 8%;
+            position: relative;
+            height: auto;
+            display: inline-block;
+            width: 100%;
+        }
+        .head .column {
+            clear: none;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            width: 1000px;
+            float: left;
+        }
+        .head .columna {
+            position: relative;
+            padding: 10px;
+            height: auto;
+            background: none;
+            color: #fff;
+            width: auto;
+            box-sizing: border-box;
+            margin: 0 auto;
+            width: 14%;
+            font-weight: 700;
+        }
+        .head .columhot, .columna {
+            color: #fefb9a;
+            font-weight: 700;
+            font-size: 18px;
+        }
+    </style>
